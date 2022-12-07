@@ -38,7 +38,7 @@ public class UserServiceImp  implements UserService{
     @Override
     public void deleteUser(Long userId) {
        userRepository.deleteById(userId);
-    }
+    } 
     
     public ResponseTemplateVo getUserWithDepartment(Long userId){
         
